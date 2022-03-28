@@ -19,6 +19,7 @@
 }
 
 .status-bar__column:first-child span {
+  margin-left: 7px;
   margin-right: 5px;
 }
 
