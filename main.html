@@ -8,6 +8,7 @@
 
     <title>뭐 키울까? - 홈</title>
   </head>
+
   <body id="body_main">
     <div class="status-bar">
       <div class="status-bar__column">
@@ -24,7 +25,14 @@
       </div>
     </div>
 
-    <div class="main-greeting">xx님, 안녕하세요</div>
+    <div class="main-greeting">
+      <span> xx님, 안녕하세요 :) </span>
+    </div>
+
+    <form id="todo-form" class="todo-bar">
+      <input type="text" placeholder="  먹고 싶은 음식 🥄" required />
+    </form>
+    <ul id="todo-list" class="todo-bar"></ul>
 
     <div class="main_nav-bar">
       <div>hello</div>
@@ -39,8 +47,6 @@
       <div></div>
     </div>
 
-    <h2>hl</h2>
-
     <script
       src="https://kit.fontawesome.com/99383d0259.js"
       crossorigin="anonymous"
@@ -48,5 +54,6 @@
     <script src="js/main.js"></script>
     <script src="js/status-bar.js"></script>
     <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
   </body>
 </html>

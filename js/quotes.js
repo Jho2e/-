@@ -32,4 +32,4 @@ const recommend = document.querySelector("#quote div:last-child");
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = todaysQuote.quote;
-recommend.innerText = todaysQuote.recommend;
+recommend.innerText = `오늘의 치킨 : ${todaysQuote.recommend}`;
