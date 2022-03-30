@@ -31,23 +31,48 @@
   margin-right: 5px;
 }
 /*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ이름인식ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+#give-me-name {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
 
-.main-greeting {
+#give-me-name input {
+  border-radius: 15px;
+  border: none;
+  height: 20px;
+  width: 110px;
+}
+
+#give-me-name input::placeholder {
+  padding-left: 7px;
+}
+
+#hello-to-user {
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
-.main-greeting span {
+#hello-to-user span:first-child {
   border-bottom: 1px solid;
   padding-bottom: 3px;
+  font-size: 20px;
 }
+
+#hello-to-user span:last-child {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
 /*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ네비게이션ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
 .main_nav-bar {
   display: flex;
   position: fixed;
   right: 15px;
+  top: 100px;
   flex-direction: column;
   align-items: flex-end;
 

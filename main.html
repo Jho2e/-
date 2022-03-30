@@ -25,8 +25,15 @@
       </div>
     </div>
 
-    <div class="main-greeting">
-      <span> xx님, 안녕하세요 :) </span>
+    <div id="main-greeting">
+      <form class="hidden" id="give-me-name">
+        <input required type="text" placeholder="이름이 뭐에요?" />
+      </form>
+
+      <div id="hello-to-user" class="hidden">
+        <span> xx님, 안녕하세요 :) </span>
+        <span>🔃</span>
+      </div>
     </div>
 
     <form id="todo-form" class="todo-bar">
@@ -51,8 +58,9 @@
       src="https://kit.fontawesome.com/99383d0259.js"
       crossorigin="anonymous"
     ></script>
-    <script src="js/main.js"></script>
     <script src="js/status-bar.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/todo.js"></script>
   </body>
