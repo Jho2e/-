@@ -1,0 +1,36 @@
+.main_nav-bar {
+  background-color: #e5ddca;
+
+  width: 100px;
+  height: 370px;
+  border-radius: 70px;
+
+  display: flex;
+  position: fixed;
+  right: 15px;
+  top: 80px;
+
+  flex-direction: column;
+  align-items: flex-end;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-top: 30px;
+}
+
+.main_nav-bar div {
+  margin-bottom: 20px;
+}
+
+.nav__list {
+  background-color: white;
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
