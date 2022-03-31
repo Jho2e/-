@@ -34,3 +34,68 @@
   justify-content: center;
   align-items: center;
 }
+
+.main-gps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-gps i {
+  color: #ed1849;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.main-gps i:hover {
+  font-size: 60px;
+}
+
+.main-gps span {
+  font-size: 14px;
+  font-weight: bold;
+  width: 500px;
+  height: 15px;
+  text-align: center;
+}
+
+.main-recommend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-recommend span:first-child {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.main-recommend span:first-child:hover {
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.main-recommend span:last-child {
+  font-size: 14px;
+  font-weight: bold;
+  width: 500px;
+  height: 15px;
+  text-align: center;
+}
+
+/*
+.main-recommend i {
+  color: blue;
+  cursor: pointer;
+}
+*/
+
+.main-play span:first-child {
+  font-size: 30px;
+}
+
+.main-play span:first-child:hover {
+  font-size: 60px;
+}
